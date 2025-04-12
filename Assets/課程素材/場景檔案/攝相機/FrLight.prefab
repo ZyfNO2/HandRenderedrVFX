@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1563961570144791168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563961570144791169}
+  m_Layer: 0
+  m_Name: FrLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563961570144791169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961570144791168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1563961570717988957}
+  - {fileID: 1563961571019456041}
+  - {fileID: 1563961571716600162}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1563961570717988956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563961570717988957}
+  - component: {fileID: 1563961570717988954}
+  m_Layer: 0
+  m_Name: MyLightSecond
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563961570717988957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961570717988956}
+  m_LocalRotation: {x: -0.44548574, y: 0.6251607, z: -0.6262882, w: 0.13594005}
+  m_LocalPosition: {x: 0.76, y: 8.71, z: -0.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1563961570144791169}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 41.448, y: -2416.218, z: -104.004005}
+--- !u!114 &1563961570717988954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961570717988956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40874e04cd6a44192e034a4dc483d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightColor: {r: 0.59607846, g: 0.023529394, b: 0.45505214, a: 1}
+  L0: 0
+--- !u!1 &1563961571019456043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563961571019456041}
+  - component: {fileID: 1563961571019456040}
+  m_Layer: 0
+  m_Name: MyLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563961571019456041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961571019456043}
+  m_LocalRotation: {x: -0.6789908, y: 0.21623175, z: 0.36009178, w: -0.6021207}
+  m_LocalPosition: {x: -0.66, y: 8.71, z: -0.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1563961570144791169}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 41.448, y: -2611.19, z: -104.004005}
+--- !u!114 &1563961571019456040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961571019456043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e2b94fb80b61e4e89a6cc716e26d3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightColor: {r: 0.1372549, g: 0.31752458, b: 0.7176471, a: 1}
+  L0: 0.462
+--- !u!1 &1563961571716600165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563961571716600162}
+  - component: {fileID: 1563961571716600163}
+  - component: {fileID: 1563961571716600160}
+  m_Layer: 0
+  m_Name: AllColorControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1563961571716600162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961571716600165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.1385341, y: 3.602098, z: -1.239675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1563961570144791169}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563961571716600163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961571716600165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80b59813a4312b447873f223c909816b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InnerColorMat: {fileID: 2100000, guid: f9125486634e4a44b80b5aa55d5c027f, type: 2}
+  InnerGlowColor: {r: 1, g: 0.581557, b: 0.34509802, a: 1}
+  ColorDown: {r: 1, g: 0.76828086, b: 0.2028302, a: 1}
+  ColorCenter: {r: 0.25943398, g: 0.7288999, b: 1, a: 1}
+  ColorCenterUpBig: {r: 1, g: 0.4764151, b: 0.4764151, a: 1}
+  ColorCenterUpSmall: {r: 1, g: 0.6151982, b: 0.19339621, a: 1}
+  ColorLightMachine: {r: 1, g: 0.6151982, b: 0.19339621, a: 1}
+  UpColor: {r: 1, g: 0.7555293, b: 0.5707547, a: 1}
+  DownColor: {r: 1, g: 0.6151982, b: 0.19339621, a: 1}
+  assignMaterialToRawImage: 1
+--- !u!114 &1563961571716600160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563961571716600165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a7e48f6a75b2494ebb15c2218a9930a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PostBlendMat: {fileID: 2100000, guid: 4d87b5ae4644bc14fbcf074c75a9e009, type: 2}
+  instanceForPreview: {fileID: 2100000, guid: 4d87b5ae4644bc14fbcf074c75a9e009, type: 2}
+  ScreenRange: 0.132
+  MultiplyRange: 0.638
+  BlendIntensity: 0.05
+  Tint01: {r: 0.2761659, g: 0.3665006, b: 0.5471698, a: 1}
+  Tint02: {r: 0.6784888, g: 0.698518, b: 0.745283, a: 1}
+  assignMaterialToRawImage: 1

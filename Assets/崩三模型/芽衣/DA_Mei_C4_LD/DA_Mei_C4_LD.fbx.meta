@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 67840d53181353b47bb127cd2459f398
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -210345731873275558
+    second: Avatar_Mei_C4_Ani_Die
+  - first:
+      74: -5477594523973846209
+    second: Avatar_Mei_C4_Ani_Appear
+  - first:
+      74: 8659753677188933493
+    second: Avatar_Mei_C4_Ani_SwitchRole
+  - first:
+      74: -3386477229936882574
+    second: Avatar_Mei_C4_Ani_Victory_01
+  - first:
+      74: 5744228436564204890
+    second: Avatar_Mei_C4_Ani_Failure_01
+  - first:
+      74: -962106227257357172
+    second: Avatar_Mei_C4_Ani_Victory_Idle
+  - first:
+      74: -2780569668500925298
+    second: Avatar_Mei_C4_Ani_Failure_01_Idle
+  - first:
+      74: -5920971309408582366
+    second: Avatar_Mei_C4_Ani_StandBy
+  - first:
+      74: 1873814605362647579
+    second: Avatar_Mei_C4_Ani_Combat
+  - first:
+      74: 2885056402234427288
+    second: Avatar_Mei_C4_Ani_CombaToStandby
+  - first:
+      74: 7853918714525451907
+    second: Avatar_Mei_C4_Ani_Idle
+  - first:
+      74: 3219989013194673426
+    second: Avatar_Mei_C4_Ani_Run
+  - first:
+      74: -3962003291304667702
+    second: Avatar_Mei_C4_Ani_RunBS
+  - first:
+      74: 2590102510129435768
+    second: Avatar_Mei_C4_Ani_RunStopLeft
+  - first:
+      74: -4865101556971488221
+    second: Avatar_Mei_C4_Ani_RunStopRight
+  - first:
+      74: 8040262577198006279
+    second: Avatar_Mei_C4_Ani_Attack_Sub_02_00
+  - first:
+      74: -1234910465241164484
+    second: Avatar_Mei_C4_Ani_Attack_Sub_03_00
+  - first:
+      74: -8560514751138753120
+    second: Avatar_Mei_C4_Ani_Attack_Sub_05_00
+  - first:
+      74: 1493526632588471039
+    second: Avatar_Mei_C4_Ani_Attack_Sub_04_00
+  - first:
+      74: -2251578389062350252
+    second: Avatar_Mei_C4_Ani_Attack_Sub_02_01
+  - first:
+      74: 5590789439958792756
+    second: Avatar_Mei_C4_Ani_Attack_Sub_02_01_EX
+  - first:
+      74: -1327977358908937183
+    second: Avatar_Mei_C4_Ani_Attack_Sub_02_01_EX_Plus_1
+  - first:
+      74: -1961800212220010104
+    second: Avatar_Mei_C4_Ani_Attack_Sub_02_01_EX_Plus_2
+  - first:
+      74: 126921200330208641
+    second: Avatar_Mei_C4_Ani_Skill_01
+  - first:
+      74: -8340505167262344543
+    second: Avatar_Mei_C4_Ani_Switch_Attack
+  - first:
+      74: -5549973482709238553
+    second: Avatar_Mei_C4_Ani_Attack_Sub_01_StandBy
+  - first:
+      74: -9094037381461349561
+    second: Avatar_Mei_C4_Ani_Attack_Sub_01
+  - first:
+      74: -528108145160354476
+    second: Avatar_Mei_C4_Ani_Skill_Ultra
+  - first:
+      74: 2540445664126010077
+    second: Avatar_Mei_C4_Ani_EvadeBackward
+  - first:
+      74: -5166120816593964314
+    second: Avatar_Mei_C4_Ani_EvadeForward
+  - first:
+      74: 6673868606744099918
+    second: Avatar_Mei_C4_Ani_Hit_L
+  - first:
+      74: -3682307640929859543
+    second: Avatar_Mei_C4_Ani_Hit_H
+  - first:
+      74: -2800952399285161102
+    second: Avatar_Mei_C4_Ani_Stun
+  - first:
+      74: 7938652441283383991
+    second: Avatar_Mei_C4_Ani_SwitchIn
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
